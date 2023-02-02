@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--Font familly link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!--Font Awsome cdn link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+   
+   <div class="MyQuizApp">
+    <div class="img">
+        <img src="Image/undraw_questions_re_1fy7.svg" alt="question Image">
+    </div>
+    <div class="txt">
+        <h3>Quiz App With Fixed Time</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis eaque hic consequatur? Vitae quam numquam suscipit, maiores illum, reprehenderit, enim labore eum dolor saepe et quos </p>
+
+        <h3>Quiz App With Fixed Time</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, voluptatum.</p>
+        
+    </div>
+
+    <div class="MyBtn">
+        <button>Start Quiz</button>
+    </div>
+
+   </div> 
+
+   <!---Second page-->
+
+   <div class="RulesBox">
+    <div class="RulesTitle">Some Rules Of this Quiz</div>
+    
+   <div class="RulesList">
+
+    <ol>
+        <li>You will have only <span style="color: rgb(75, 75, 252);">15 seconds </span> per each questions. </li>
+
+        <li>Once you select your answer, it can't be undone. </li>
+
+        <li>You can't select any option once time goes off.</li>
+
+        <li>You can't exit from the Quiz while you're playing.</li>
+
+        <li>You'll get points on the basis of your correct answer.</li>
+
+    </ol> 
+   </div>
+
+   <div class="buttons">
+    <button class="ExitButton">Exit Quiz</button>
+    <button class="ContinueButton">Continue</button>
+   </div>
+
+   </div>
+
+<!---Third page-->
+
+<div class="Question">
+    <div class="QuestionHeader">
+        <div class="title">Start Exam</div>
+        <div class="TimeCount">
+            <div class="TimeLeft">Time Left</div>
+            <div class="Seconds">15</div>
+        </div>
+        <div class="time_line"></div>
+    </div>
+
+    <div class="section">
+   <div><span class="text" id="text1"> What Does HTML Stand For? </span>  </div>
+ 
+    <div class="MyOptions">
+
+  
+  
+   </div> 
+   </div>
+<footer>
+    <div class="total_ques">
+        <p></p>
+    </div>
+    <button class="nextbtn">Next Que</button>
+</footer>
+
+</div>  
+      
+
+
+
+<script src="JS/Script.js"></script>  
+<script src="JS/question.js"></script>
+</body>
+</html>
